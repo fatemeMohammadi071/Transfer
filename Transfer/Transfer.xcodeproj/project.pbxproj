@@ -66,6 +66,7 @@
 		83F7D6352A2F072600FFD4AB /* FakeTransferResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83F7D62F2A2F04F500FFD4AB /* FakeTransferResponse.json */; };
 		83F7D6382A2F083400FFD4AB /* TransferListUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6372A2F083400FFD4AB /* TransferListUseCaseTests.swift */; };
 		83F7D63B2A2F08B800FFD4AB /* stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D63A2A2F08B800FFD4AB /* stubs.swift */; };
+		83F7D63F2A2F0C3C00FFD4AB /* DownloadImageUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D63E2A2F0C3C00FFD4AB /* DownloadImageUseCaseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +148,7 @@
 		83F7D6302A2F051200FFD4AB /* XCTest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+Extension.swift"; sourceTree = "<group>"; };
 		83F7D6372A2F083400FFD4AB /* TransferListUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferListUseCaseTests.swift; sourceTree = "<group>"; };
 		83F7D63A2A2F08B800FFD4AB /* stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stubs.swift; sourceTree = "<group>"; };
+		83F7D63E2A2F0C3C00FFD4AB /* DownloadImageUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageUseCaseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -477,6 +479,7 @@
 			isa = PBXGroup;
 			children = (
 				83F7D6372A2F083400FFD4AB /* TransferListUseCaseTests.swift */,
+				83F7D63E2A2F0C3C00FFD4AB /* DownloadImageUseCaseTests.swift */,
 			);
 			path = Domain;
 			sourceTree = "<group>";
@@ -676,6 +679,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F7D63B2A2F08B800FFD4AB /* stubs.swift in Sources */,
+				83F7D63F2A2F0C3C00FFD4AB /* DownloadImageUseCaseTests.swift in Sources */,
 				83F7D62D2A2F038500FFD4AB /* NetworkManagerTests.swift in Sources */,
 				83F7D6312A2F051200FFD4AB /* XCTest+Extension.swift in Sources */,
 				83F7D6382A2F083400FFD4AB /* TransferListUseCaseTests.swift in Sources */,
