@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		83E08DE42A1FA8B900D2E706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83E08DE32A1FA8B900D2E706 /* Assets.xcassets */; };
 		83E08DE72A1FA8B900D2E706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E08DE52A1FA8B900D2E706 /* LaunchScreen.storyboard */; };
-		83E08DF22A1FA8B900D2E706 /* TransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08DF12A1FA8B900D2E706 /* TransferTests.swift */; };
 		83E08DFC2A1FA8B900D2E706 /* TransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08DFB2A1FA8B900D2E706 /* TransferUITests.swift */; };
 		83E08DFE2A1FA8B900D2E706 /* TransferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08DFD2A1FA8B900D2E706 /* TransferUITestsLaunchTests.swift */; };
 		83E08E7F2A1FADCF00D2E706 /* appDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08E7E2A1FADCF00D2E706 /* appDIContainer.swift */; };
@@ -56,6 +55,15 @@
 		83E08EFE2A20CE2500D2E706 /* FavoriteTransferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08EFD2A20CE2500D2E706 /* FavoriteTransferCollectionViewCell.swift */; };
 		83E08F002A20CF1600D2E706 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E08EFF2A20CF1600D2E706 /* ReusableView.swift */; };
 		83F7D6242A26227000FFD4AB /* DefaultHeaderCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6232A26227000FFD4AB /* DefaultHeaderCollectionView.swift */; };
+		83F7D6272A2F033000FFD4AB /* NetworkSessionManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6262A2F033000FFD4AB /* NetworkSessionManagerMock.swift */; };
+		83F7D6292A2F034D00FFD4AB /* RequestMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6282A2F034D00FFD4AB /* RequestMock.swift */; };
+		83F7D62B2A2F036D00FFD4AB /* NetwokLayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D62A2A2F036D00FFD4AB /* NetwokLayerTests.swift */; };
+		83F7D62D2A2F038500FFD4AB /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D62C2A2F038500FFD4AB /* NetworkManagerTests.swift */; };
+		83F7D6312A2F051200FFD4AB /* XCTest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6302A2F051200FFD4AB /* XCTest+Extension.swift */; };
+		83F7D6322A2F072200FFD4AB /* TransferResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83F7D62E2A2F045600FFD4AB /* TransferResponse.json */; };
+		83F7D6332A2F072200FFD4AB /* TransferResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83F7D62E2A2F045600FFD4AB /* TransferResponse.json */; };
+		83F7D6342A2F072600FFD4AB /* FakeTransferResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83F7D62F2A2F04F500FFD4AB /* FakeTransferResponse.json */; };
+		83F7D6352A2F072600FFD4AB /* FakeTransferResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 83F7D62F2A2F04F500FFD4AB /* FakeTransferResponse.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,7 +89,6 @@
 		83E08DE62A1FA8B900D2E706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83E08DE82A1FA8B900D2E706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83E08DED2A1FA8B900D2E706 /* TransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		83E08DF12A1FA8B900D2E706 /* TransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferTests.swift; sourceTree = "<group>"; };
 		83E08DF72A1FA8B900D2E706 /* TransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83E08DFB2A1FA8B900D2E706 /* TransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferUITests.swift; sourceTree = "<group>"; };
 		83E08DFD2A1FA8B900D2E706 /* TransferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -129,6 +136,13 @@
 		83E08EFD2A20CE2500D2E706 /* FavoriteTransferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTransferCollectionViewCell.swift; sourceTree = "<group>"; };
 		83E08EFF2A20CF1600D2E706 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		83F7D6232A26227000FFD4AB /* DefaultHeaderCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultHeaderCollectionView.swift; sourceTree = "<group>"; };
+		83F7D6262A2F033000FFD4AB /* NetworkSessionManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSessionManagerMock.swift; sourceTree = "<group>"; };
+		83F7D6282A2F034D00FFD4AB /* RequestMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMock.swift; sourceTree = "<group>"; };
+		83F7D62A2A2F036D00FFD4AB /* NetwokLayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwokLayerTests.swift; sourceTree = "<group>"; };
+		83F7D62C2A2F038500FFD4AB /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
+		83F7D62E2A2F045600FFD4AB /* TransferResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TransferResponse.json; sourceTree = "<group>"; };
+		83F7D62F2A2F04F500FFD4AB /* FakeTransferResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FakeTransferResponse.json; sourceTree = "<group>"; };
+		83F7D6302A2F051200FFD4AB /* XCTest+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTest+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +208,8 @@
 		83E08DF02A1FA8B900D2E706 /* TransferTests */ = {
 			isa = PBXGroup;
 			children = (
-				83E08DF12A1FA8B900D2E706 /* TransferTests.swift */,
+				83F7D6252A2F032100FFD4AB /* Network */,
+				83F7D6302A2F051200FFD4AB /* XCTest+Extension.swift */,
 			);
 			path = TransferTests;
 			sourceTree = "<group>";
@@ -439,6 +454,19 @@
 			path = DefaultHeaderView;
 			sourceTree = "<group>";
 		};
+		83F7D6252A2F032100FFD4AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				83F7D6262A2F033000FFD4AB /* NetworkSessionManagerMock.swift */,
+				83F7D6282A2F034D00FFD4AB /* RequestMock.swift */,
+				83F7D62A2A2F036D00FFD4AB /* NetwokLayerTests.swift */,
+				83F7D62C2A2F038500FFD4AB /* NetworkManagerTests.swift */,
+				83F7D62E2A2F045600FFD4AB /* TransferResponse.json */,
+				83F7D62F2A2F04F500FFD4AB /* FakeTransferResponse.json */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -546,6 +574,8 @@
 			files = (
 				83E08DE72A1FA8B900D2E706 /* LaunchScreen.storyboard in Resources */,
 				83E08DE42A1FA8B900D2E706 /* Assets.xcassets in Resources */,
+				83F7D6342A2F072600FFD4AB /* FakeTransferResponse.json in Resources */,
+				83F7D6322A2F072200FFD4AB /* TransferResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +583,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83F7D6352A2F072600FFD4AB /* FakeTransferResponse.json in Resources */,
+				83F7D6332A2F072200FFD4AB /* TransferResponse.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +653,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E08DF22A1FA8B900D2E706 /* TransferTests.swift in Sources */,
+				83F7D62D2A2F038500FFD4AB /* NetworkManagerTests.swift in Sources */,
+				83F7D6312A2F051200FFD4AB /* XCTest+Extension.swift in Sources */,
+				83F7D62B2A2F036D00FFD4AB /* NetwokLayerTests.swift in Sources */,
+				83F7D6292A2F034D00FFD4AB /* RequestMock.swift in Sources */,
+				83F7D6272A2F033000FFD4AB /* NetworkSessionManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

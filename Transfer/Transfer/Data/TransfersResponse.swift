@@ -11,7 +11,7 @@ import Foundation
 
 typealias TransfersResponse = [TransferResponse]
 
-// MARK: - WelcomeElement
+// MARK: - TransferResponse
 struct TransferResponse: Codable {
     let person: Person?
     let card: Card?
